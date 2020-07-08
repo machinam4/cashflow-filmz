@@ -44,7 +44,7 @@ const startserver = async () => {
   const server = new ApolloServer({ schema, context: accountsGraphQL.context })
 
   // The `listen` method launches a web server.
-  server.listen().then(({ url }) => {
+  server.listen({ port: process.env.PORT || 4000 }).then(({ url }) => {
     console.log(`🚀  Server ready at ${url}`);
   });
 }
