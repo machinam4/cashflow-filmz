@@ -1,0 +1,37 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Cashflow Filmz server for Admin",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/app.js",
+    "build": "babel src --out-dir dist",
+    "serve": "node dist/app.js"
+  },
+  "keywords": [
+    "cashflow",
+    "filmz",
+    "filmz"
+  ],
+  "author": "evoton.co.ke",
+  "license": "ISC",
+  "dependencies": {
+    "@accounts/graphql-api": "^0.27.0",
+    "@accounts/mongo": "^0.27.0",
+    "@accounts/password": "^0.27.0",
+    "@accounts/server": "^0.27.0",
+    "@graphql-modules/core": "^0.7.17",
+    "@graphql-toolkit/schema-merging": "^0.10.7",
+    "apollo-server": "^2.15.1",
+    "graphql": "^15.2.0",
+    "graphql-upload": "^11.0.0",
+    "mongoose": "^5.9.21"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4"
+  }
+}
