@@ -27,9 +27,7 @@
     "graphql": "^15.2.0",
     "graphql-upload": "^11.0.0",
     "mongoose": "^5.9.21",
-    "nodemon": "^2.0.4"
-  },
-  "devDependencies": {
+    "nodemon": "^2.0.4",
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
     "@babel/node": "^7.10.4",
