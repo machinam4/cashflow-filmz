@@ -26,7 +26,8 @@
     "apollo-server": "^2.15.1",
     "graphql": "^15.2.0",
     "graphql-upload": "^11.0.0",
-    "mongoose": "^5.9.21"
+    "mongoose": "^5.9.21",
+    "nodemon": "^2.0.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.4",
