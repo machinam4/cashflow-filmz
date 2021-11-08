@@ -23,7 +23,7 @@
     "@accounts/server": "^0.27.0",
     "@graphql-modules/core": "^0.7.17",
     "@graphql-toolkit/schema-merging": "^0.10.7",
-    "apollo-server": "^2.15.1",
+    "apollo-server": "^2.25.3",
     "graphql": "^15.2.0",
     "graphql-upload": "^11.0.0",
     "mongoose": "^5.9.21",
